@@ -1,16 +1,39 @@
+/* 
+    Fonts
+    --- 
+    @font-face declarations
+
+*/
+
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 400;
+    src: url("../fonts/Inter-Regular.woff2") format ("woff2")
+}
+
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 700;
+    src: url("../fonts/Inter-Bold.woff2") format ("woff2")
+}
+
+
 /*
     Elements: Page
     ---
     Default markup for page level elements
 */
 
+
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    /* (vorige opdracht via font folder) font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;*/
+    font-family: "droid-serif", Georgia, serif;
     color: #5C6366;
     padding: 48px 24px 24px;
 }
+
 
 body {
     max-width: 42em;
@@ -48,7 +71,7 @@ img {
 */
 
 h1 {
-    /*font-family: "Times New Roman", serif;*/
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #17181A;
     font-size: 36px;
     /*font-weight: normal;*/
@@ -57,6 +80,7 @@ h1 {
 }
 
 h2 {
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #17181A;
     font-size: 23px;
     line-height: 32px;
@@ -64,6 +88,7 @@ h2 {
 }
 
 h3 {
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #17181A;
     font-size: 18px;
     line-height: 24px;
